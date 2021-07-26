@@ -1,7 +1,7 @@
-TrackMySleepQuality - Final Code for 6.1 Room codelab
-=====================================================
+TrackMySleepQuality - Solution Code for 6.2 Coroutines codelab
+==============================================================
 
-Final code for Android Kotlin Fundamentals Codelab 6.1 Room
+Solution code for Android Kotlin Fundamentals Codelab 6.2 Coroutines
 
 Introduction
 ------------
@@ -9,8 +9,12 @@ Introduction
 TrackMySleepQuality is an app for recording sleep data for each night. 
 You can record a start and stop time, assign a quality rating, and clear the database. 
 
-This version of the app contains the Room database that holds the sleep data 
-and instrumented tests to verify that this backend works. 
+This app:
+
+* Extends the TrackMySleepQuality app to collect, store, and display data in and from the database. 
+* Uses coroutines to run long-running database operations in the background. 
+* Uses LiveData to trigger navigation and showing of a snackbar. 
+* Uses LiveData to enable and disable buttons.
 
 
 Pre-requisites
@@ -25,6 +29,9 @@ You need to know:
 * View models, view-model factories, and LiveData and its observers. 
   These Architecture Components topics are covered in an earlier codelab in this course.
 * A basic understanding of SQL databases and the SQLite language.
+* How to create a Room database, create a DAO, and define entities, 
+  from the previous Room codelab[LINK]. 
+* It is helpful if you are familiar with threading and multiprocessing concepts.
 
 
 Getting Started
