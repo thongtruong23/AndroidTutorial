@@ -1,0 +1,43 @@
+Question 1
+How does RecyclerView display items? Select all that apply.
+
+(Answer)▢ Displays items in a list or a grid.
+
+	▢ Scrolls vertically or horizontally.
+
+	▢ Scrolls diagonally on larger devices such as tablets.
+
+(Answer)▢ Allows custom layouts when a list or a grid is not enough for the use case.
+
+Question 2
+What are the benefits of using RecyclerView? Select all that apply.
+
+(Answer)▢ Efficiently displays large lists.
+
+(Answer)▢ Automatically updates the data.
+
+	▢ Minimizes the need for refreshes when an item is updated, deleted, or added to the list.
+
+(Answer)▢ Reuses view that scrolls off screen to display the next item that scrolls on screen.
+
+Question 3
+What are some of the reasons for using adapters? Select all that apply.
+
+	▢ Separation of concerns makes it easier to change and test code.
+
+(Answer)▢ RecyclerView is agnostic to the data that is being displayed.
+
+(Answer)▢ Data processing layers do not have to concern themselves with how data will be displayed.
+
+	▢ The app will run faster.
+
+Question 4
+Which of the following are true of ViewHolder? Select all that apply.
+
+(Answer)▢ The ViewHolder layout is defined in XML layout files.
+
+	▢ There is one ViewHolder for each unit of data in the dataset.
+
+	▢ You can have more than one ViewHolder in a RecyclerView.
+
+(Answer)▢ The Adapter binds data to the ViewHolder.
