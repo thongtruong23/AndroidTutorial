@@ -21,22 +21,22 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-
+/**
+ * ViewModel containing all the logic needed to run the game
+ */
 class GameViewModel : ViewModel() {
 
     // The current _word
     private val _word = MutableLiveData<String>()
+    val word: LiveData<String>
+        get() = _word
 
     // The current score
     private val _score = MutableLiveData<Int>()
     val score: LiveData<Int>
         get() = _score
 
-    val word: LiveData<String>
-        get() = _word
-
-
-
+    // Countdown time
     private val _eventGameFinish = MutableLiveData<Boolean>()
     val eventGameFinish: LiveData<Boolean>
         get() = _eventGameFinish
@@ -119,12 +119,12 @@ class GameViewModel : ViewModel() {
 
     /** Method for the game completed event **/
 
-    fun onGameFinish() {
-        _eventGameFinish.value = true
-    }
-
     fun onGameFinishComplete() {
         _eventGameFinish.value = false
+    }
+
+    fun onGameFinish() {
+        _eventGameFinish.value = true
     }
 
 }
