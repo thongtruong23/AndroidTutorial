@@ -1,0 +1,31 @@
+Question 1
+Which of the following are necessary to use DiffUtil? Select all that apply.
+
+	▢ Extend the ItemCallBack class.
+(Answer)▢ Override areItemsTheSame().
+
+(Answer)▢ Override areContentsTheSame().
+
+	▢ Use data binding to track the differences between items.
+
+Question 2
+Which of the following are true about binding adapters?
+
+(Answer)▢ A binding adapter is a function annotated with @BindingAdapter.
+
+	▢ Using a binding adapter allows you to separate data formatting from the view holder.
+
+	▢ You must use a RecyclerViewAdapter if you want to use binding adapters.
+
+	▢ Binding adapters are a good solution when you need to transform complex data.
+
+Question 3
+When should you consider using Transformations instead of a binding adapter? Select all that apply.
+
+	▢ Your data is simple.
+
+(Answer)▢ You are formatting a string.
+
+	▢ Your list is very long.
+
+(Answer)▢ Your ViewHolder only contains one view.
