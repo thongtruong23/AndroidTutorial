@@ -1,0 +1,32 @@
+Question 1
+Which Glide method do you use to indicate the ImageView that will contain the loaded image?
+
+(Answer)▢ into()
+
+	▢ with()
+
+	▢ imageview()
+
+	▢ apply()
+
+Question 2
+How do you specify a placeholder image to show when Glide is loading?
+
+	▢ Use the into() method with a drawable.
+
+(Answer)▢ Use RequestOptions() and call the placeholder() method with a drawable.
+
+	▢ Assign the Glide.placeholder property to a drawable.
+
+	▢ Use RequestOptions() and call the loadingImage() method with a drawable.
+
+Question 3
+How do you indicate that a method is a binding adapter?
+
+	▢ Call the setBindingAdapter() method on the LiveData.
+
+	▢ Put the method into a Kotlin file called BindingAdapters.kt.
+
+	▢ Use the android:adapter attribute in the XML layout.
+
+(Answer)▢ Annotate the method with @BindingAdapter.
