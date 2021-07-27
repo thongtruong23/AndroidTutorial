@@ -1,0 +1,32 @@
+Question 1
+What are the concrete implementations of the WorkRequest class?
+
+	▢ OneTimeWorkPeriodicRequest
+	
+(Answer)▢ OneTimeWorkRequest and PeriodicWorkRequest
+
+	▢ OneTimeWorkRequest and RecurringWorkRequest
+
+	▢ OneTimeOffWorkRequest and RecurringWorkRequest
+
+Question 2
+Which of the following classes does the WorkManager use to schedule the background task on API 23 and higher?
+
+(Answer)▢ Only JobScheduler
+
+	▢ BroadcastReceiver and AlarmManager
+
+	▢ AlarmManager and JobScheduler
+
+	▢ Scheduler and BroadcastReceiver
+
+Question 3
+Which API do you use to add constraints to a WorkRequest?
+
+(Answer)▢ setConstraints()
+
+	▢ addConstraints()
+
+	▢ setConstraint()
+
+	▢ addConstraintsToWorkRequest()
